@@ -92,9 +92,11 @@ class ApiController extends Controller
     public function showRandomPassword(Request $request)
     {
         // Set length to 12 if not specified in request
-        $length = $request->input('length', 12);
+        $length = (int) $request->input('length', 12);
 
         // Generate a random alphanumeric combination
-        return Keygen::alphanum($length)->generate();
+        $password = Keygen::alphanum($length)->generate();
+
+        return ['length' => $length, 'password' => $password];
     }
 }
