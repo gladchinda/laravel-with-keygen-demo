@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52d779f538ac216e18583038b3604061",
-    "content-hash": "652e58e7597a7382c7fedaf9209584b8",
+    "hash": "9e1aa172d41570d17c3736ddde0e3689",
+    "content-hash": "76295eae352363b4fcd22c775d8434f9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -162,17 +162,17 @@
             "time": "2015-11-06 14:35:42"
         },
         {
-            "name": "gladxcodes/keygen",
-            "version": "1.1.3",
+            "name": "gladcodes/keygen",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Gladx/keygen.git",
-                "reference": "8714269e779cdf5fc3ad897a4f8219aaaea2f9de"
+                "url": "https://github.com/gladchinda/keygen-php.git",
+                "reference": "2f096aaa9b9935c05b21e349aca90b686cb23bfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gladx/keygen/zipball/8714269e779cdf5fc3ad897a4f8219aaaea2f9de",
-                "reference": "8714269e779cdf5fc3ad897a4f8219aaaea2f9de",
+                "url": "https://api.github.com/repos/gladchinda/keygen-php/zipball/2f096aaa9b9935c05b21e349aca90b686cb23bfc",
+                "reference": "2f096aaa9b9935c05b21e349aca90b686cb23bfc",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "php",
                 "random"
             ],
-            "time": "2016-10-15 19:39:23"
+            "time": "2017-01-10 15:24:13"
         },
         {
             "name": "jakub-onderka/php-console-color",
